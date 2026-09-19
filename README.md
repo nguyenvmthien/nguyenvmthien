@@ -12,60 +12,44 @@
 </p>
 
 <p align="center">
-  <b>AI Engineer</b> working across the full modern AI stack — from agentic applications and retrieval systems to model serving, evaluation, and infrastructure.
+  <b>AI Engineer</b> building systems across <b>applications, agents, LLMs, and infrastructure</b>.
 </p>
 
 <br/>
 
-## Engineering Focus
+## AI Engineering
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p>
+  <img src="https://img.shields.io/badge/01-AI%20APPLICATIONS-2563EB?style=for-the-badge&labelColor=0D1117" alt="AI Applications" />
+  <br/><br/>
+  <code>RAG</code> · <code>GraphRAG</code> · <code>Knowledge Systems</code> · <code>Multimodal</code> · <code>AI APIs</code>
+</p>
 
-### Agentic AI
-<sub>Harness · Tool Use · Context · Memory · Loops · Evals</sub>
+<p>
+  <img src="https://img.shields.io/badge/02-AGENT%20ENGINEERING-7C3AED?style=for-the-badge&labelColor=0D1117" alt="Agent Engineering" />
+  <br/><br/>
+  <code>Harnesses</code> · <code>Tool Use</code> · <code>Context Engineering</code> · <code>Memory</code> · <code>Agent Loops</code> · <code>Evals</code>
+</p>
 
-Reliable agent systems for real-world tasks.
+<p>
+  <img src="https://img.shields.io/badge/03-LLM%20ENGINEERING-0891B2?style=for-the-badge&labelColor=0D1117" alt="LLM Engineering" />
+  <br/><br/>
+  <code>Retrieval</code> · <code>Reranking</code> · <code>Structured Generation</code> · <code>Routing</code> · <code>Guardrails</code>
+</p>
 
-</td>
+<p>
+  <img src="https://img.shields.io/badge/04-AI%20SYSTEMS-059669?style=for-the-badge&labelColor=0D1117" alt="AI Systems" />
+  <br/><br/>
+  <code>Inference</code> · <code>vLLM</code> · <code>SGLang</code> · <code>CUDA</code> · <code>Observability</code> · <code>Distributed Systems</code>
+</p>
 
-<td width="50%" valign="top">
+<br/>
 
-### RAG & Knowledge
-<sub>RAG · GraphRAG · Retrieval · Reranking · Vector Search</sub>
+## Selected Work
 
-Grounded AI built on retrieval and knowledge systems.
+### [`infercap`](https://github.com/nguyenvmthien/infercap)
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### LLM Systems
-<sub>Inference · Routing · Structured Generation · Guardrails</sub>
-
-The layer between models and usable AI products.
-
-</td>
-
-<td width="50%" valign="top">
-
-### AI Infrastructure
-<sub>vLLM · SGLang · CUDA · Docker · Cloud · Distributed Systems</sub>
-
-Serving, performance, and production-scale operation.
-
-</td>
-</tr>
-</table>
-
-## Featured Work
-
-### [`infercap`](https://github.com/nguyenvmthien/infercap) — LLM inference engineering toolkit
-
-A CLI toolkit for practical LLM inference workflows: **preflight → serve → verify → benchmark → analyze**.
+**LLM inference engineering toolkit** — preflight, serving configuration, verification, benchmarking, telemetry, and capacity analysis.
 
 <p>
   <img src="https://img.shields.io/badge/vLLM-111827?style=flat-square" />
@@ -74,8 +58,6 @@ A CLI toolkit for practical LLM inference workflows: **preflight → serve → v
   <img src="https://img.shields.io/badge/Capacity%20Analysis-111827?style=flat-square" />
   <a href="https://infercap.vercel.app"><img src="https://img.shields.io/badge/Live-2563EB?style=flat-square&logo=vercel&logoColor=white" /></a>
 </p>
-
-> I use projects to connect application-level AI engineering with the systems underneath it — retrieval, agents, serving, evaluation, and performance.
 
 <br/>
 
@@ -91,28 +73,12 @@ A CLI toolkit for practical LLM inference workflows: **preflight → serve → v
   <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/RAG-0D1117?style=flat-square" />
   <img src="https://img.shields.io/badge/GraphRAG-0D1117?style=flat-square" />
-  <img src="https://img.shields.io/badge/Agentic%20AI-0D1117?style=flat-square" />
+  <img src="https://img.shields.io/badge/Agents-0D1117?style=flat-square" />
   <img src="https://img.shields.io/badge/Evals-0D1117?style=flat-square" />
-  <img src="https://img.shields.io/badge/Distributed%20Systems-0D1117?style=flat-square" />
 </p>
 
 <br/>
 
-## Currently Exploring
-
-- **Agent Engineering** — harness design, context management, tool use, long-running agents, and feedback loops
-- **Production RAG** — retrieval architecture, GraphRAG, reranking, evaluation, and observability
-- **LLM Inference** — scheduling, KV cache, continuous batching, speculative decoding, and serving systems
-- **GPU Systems** — CUDA execution, memory hierarchy, kernels, and performance engineering
-
-<br/>
-
-## GitHub
-
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nguyenvmthien&theme=github_dark" width="100%" alt="GitHub profile summary" />
-</p>
-
-<p align="center">
-  <sub>Build the product · engineer the loop · measure the system · optimize the runtime.</sub>
+  <sub>Applications → Agents → LLMs → Systems</sub>
 </p>
