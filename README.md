@@ -24,45 +24,42 @@
 <td width="50%" valign="top">
 
 ### Agentic AI
+<sub>Harness · Tool Use · Context · Memory · Loops · Evals</sub>
 
-**Harnesses · Tool Use · Context Engineering · Memory · Agent Loops · Evals**
-
-Designing reliable agent systems that can reason, use tools, maintain state, and operate over longer-running workflows.
+Reliable agent systems for real-world tasks.
 
 </td>
+
 <td width="50%" valign="top">
 
-### RAG & Knowledge Systems
+### RAG & Knowledge
+<sub>RAG · GraphRAG · Retrieval · Reranking · Vector Search</sub>
 
-**RAG · GraphRAG · Retrieval · Reranking · Vector Search · Knowledge Graphs**
-
-Building grounded AI systems around retrieval quality, context construction, and domain knowledge.
+Grounded AI built on retrieval and knowledge systems.
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
 ### LLM Systems
+<sub>Inference · Routing · Structured Generation · Guardrails</sub>
 
-**Inference · Routing · Structured Generation · Guardrails · Observability · Evaluation**
-
-Working on the systems layer between models and production applications, with reliability and measurable behavior as first-class concerns.
+The layer between models and usable AI products.
 
 </td>
+
 <td width="50%" valign="top">
 
 ### AI Infrastructure
+<sub>vLLM · SGLang · CUDA · Docker · Cloud · Distributed Systems</sub>
 
-**vLLM · SGLang · CUDA · Docker · Cloud · Distributed Systems**
-
-Exploring efficient serving, GPU execution, capacity, telemetry, and the infrastructure required to operate AI workloads at scale.
+Serving, performance, and production-scale operation.
 
 </td>
 </tr>
 </table>
-
-<br/>
 
 ## Featured Work
 
