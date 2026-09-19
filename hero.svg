@@ -1,0 +1,88 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.52" stop-color="#0D1526"/>
+      <stop offset="1" stop-color="#0A1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="575" y1="70" x2="1080" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111C31"/>
+      <stop offset="1" stop-color="#0D1628"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#162238" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="358" rx="26" fill="url(#bg)" stroke="#1F2B40" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="358" rx="26" fill="url(#grid)" opacity="0.55"/>
+
+  <circle cx="1045" cy="74" r="160" fill="#1D4ED8" opacity="0.08"/>
+  <circle cx="950" cy="290" r="190" fill="#0891B2" opacity="0.05"/>
+
+  <text x="64" y="84" fill="#8FA6C3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="4">AI ENGINEERING</text>
+  <text x="60" y="151" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="1">THIEN NGUYEN</text>
+  <text x="63" y="195" fill="#B8C6D9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="400">Building AI systems from product layer to runtime.</text>
+  <text x="63" y="226" fill="#7F93AE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Agents · RAG · LLM Systems · Inference · Infrastructure</text>
+
+  <!-- chips -->
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.3">
+    <rect x="63" y="264" width="105" height="38" rx="19" fill="url(#chip)" stroke="#28415F"/>
+    <text x="87" y="288" fill="#93C5FD">AGENTS</text>
+
+    <rect x="178" y="264" width="82" height="38" rx="19" fill="url(#chip)" stroke="#28415F"/>
+    <text x="205" y="288" fill="#67E8F9">RAG</text>
+
+    <rect x="270" y="264" width="138" height="38" rx="19" fill="url(#chip)" stroke="#28415F"/>
+    <text x="291" y="288" fill="#C4B5FD">LLM SYSTEMS</text>
+
+    <rect x="418" y="264" width="130" height="38" rx="19" fill="url(#chip)" stroke="#28415F"/>
+    <text x="440" y="288" fill="#A7F3D0">INFERENCE</text>
+  </g>
+
+  <!-- right-side architecture motif -->
+  <g filter="url(#glow)">
+    <path d="M716 100C774 100 782 136 832 136C882 136 888 95 945 95C1002 95 1008 132 1065 132" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+    <path d="M716 238C771 238 792 205 842 205C891 205 904 244 954 244C1005 244 1015 212 1065 212" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="684" y="78" width="122" height="76" rx="16" fill="#0E1A2D" stroke="#2A405C"/>
+    <circle cx="716" cy="111" r="8" fill="#60A5FA"/>
+    <text x="735" y="116" fill="#D7E4F3" font-size="15" font-weight="700">PRODUCT</text>
+    <text x="704" y="140" fill="#6F86A4" font-size="12">APIs · UX · RAG</text>
+
+    <rect x="824" y="105" width="122" height="76" rx="16" fill="#0E1A2D" stroke="#2A405C"/>
+    <circle cx="856" cy="138" r="8" fill="#22D3EE"/>
+    <text x="875" y="143" fill="#D7E4F3" font-size="15" font-weight="700">AGENTS</text>
+    <text x="844" y="167" fill="#6F86A4" font-size="12">Tools · Loop · Eval</text>
+
+    <rect x="965" y="70" width="150" height="76" rx="16" fill="#0E1A2D" stroke="#2A405C"/>
+    <circle cx="997" cy="103" r="8" fill="#A78BFA"/>
+    <text x="1016" y="108" fill="#D7E4F3" font-size="15" font-weight="700">LLM SYSTEMS</text>
+    <text x="985" y="132" fill="#6F86A4" font-size="12">Routing · Guardrails</text>
+
+    <rect x="756" y="207" width="150" height="76" rx="16" fill="#0E1A2D" stroke="#2A405C"/>
+    <circle cx="788" cy="240" r="8" fill="#34D399"/>
+    <text x="807" y="245" fill="#D7E4F3" font-size="15" font-weight="700">INFERENCE</text>
+    <text x="776" y="269" fill="#6F86A4" font-size="12">vLLM · SGLang · KV</text>
+
+    <rect x="925" y="230" width="164" height="76" rx="16" fill="#0E1A2D" stroke="#2A405C"/>
+    <circle cx="957" cy="263" r="8" fill="#F59E0B"/>
+    <text x="976" y="268" fill="#D7E4F3" font-size="15" font-weight="700">INFRASTRUCTURE</text>
+    <text x="945" y="292" fill="#6F86A4" font-size="12">Cloud · CUDA · Observability</text>
+  </g>
+
+  <circle cx="1144" cy="42" r="4" fill="#34D399"/>
+  <circle cx="1126" cy="42" r="4" fill="#334155"/>
+  <circle cx="1108" cy="42" r="4" fill="#334155"/>
+</svg>
