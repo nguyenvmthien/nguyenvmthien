@@ -1,56 +1,122 @@
 <div align="center">
 
-# Thien Nguyen
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=700&lines=AI+Systems+%E2%80%A2+LLM+Inference+%E2%80%A2+GPU+Computing;Building+fast%2C+scalable%2C+production-ready+AI;CUDA+%E2%80%A2+vLLM+%E2%80%A2+RAG+%E2%80%A2+Distributed+Systems" />
+# THIEN NGUYEN
+
+### AI ENGINEER
+
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=900&color=8B949E&center=true&vCenter=true&width=850&lines=RAG+%E2%80%A2+Agents+%E2%80%A2+Harnesses+%E2%80%A2+LLM+Systems;From+AI+applications+to+inference+infrastructure.;Build+%E2%86%92+Evaluate+%E2%86%92+Serve+%E2%86%92+Observe+%E2%86%92+Improve"
+/>
 
 <br/>
 
-**Computer Science · AI Systems · Infrastructure**
-
-Building AI systems from **model serving and GPU optimization**
-to **RAG, agents, and production infrastructure**.
+**Building production AI systems across the full stack —
+from agent loops and retrieval pipelines to model serving and GPU infrastructure.**
 
 <br/>
 
-<a href="https://nvmthien.com">
-  <img src="https://img.shields.io/badge/Website-nvmthien.com-0D1117?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-<a href="https://github.com/nguyenvmthien">
-  <img src="https://img.shields.io/badge/GitHub-nguyenvmthien-0D1117?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+`RAG` · `Agents` · `LLM Systems` · `Backend` · `Inference` · `Infrastructure`
 
 </div>
 
 ---
 
-## `> focus`
+## `01 / AI ENGINEERING`
 
 ```text
-AI Systems
-├── LLM Inference
-│   ├── Model Serving
-│   ├── Continuous Batching
-│   ├── KV Cache Management
-│   ├── Paged / Radix Attention
-│   └── Speculative Decoding
-│
-├── GPU Computing
-│   ├── CUDA
-│   ├── Kernel Optimization
-│   ├── Memory Hierarchy
-│   └── GEMM
-│
-├── Production AI
-│   ├── RAG
-│   ├── Agentic Systems
-│   ├── Observability
-│   └── MLOps
-│
-└── Distributed Systems
+┌───────────────────────────────────────────────────────────────┐
+│                        AI PRODUCT                             │
+│                                                               │
+│             RAG · Agents · Multimodal · APIs                  │
+└──────────────────────────────┬────────────────────────────────┘
+                               │
+                               ▼
+┌───────────────────────────────────────────────────────────────┐
+│                       AGENT SYSTEM                            │
+│                                                               │
+│  Harness · Loop · Tools · Context · Memory · State · Planning │
+└──────────────────────────────┬────────────────────────────────┘
+                               │
+                               ▼
+┌───────────────────────────────────────────────────────────────┐
+│                        LLM SYSTEM                             │
+│                                                               │
+│   Retrieval · Routing · Evals · Guardrails · Observability    │
+└──────────────────────────────┬────────────────────────────────┘
+                               │
+                               ▼
+┌───────────────────────────────────────────────────────────────┐
+│                      AI INFRASTRUCTURE                        │
+│                                                               │
+│    Serving · vLLM · SGLang · Distributed Systems · CUDA       │
+└───────────────────────────────────────────────────────────────┘
 ```
 
-## `> featured_work`
+I work across the layers required to turn a model into a **reliable AI product**.
+
+My interests span both application-level AI engineering and the systems underneath it:
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### AI Applications
+
+* Retrieval-Augmented Generation
+* Agentic applications
+* Multimodal systems
+* AI-native backend services
+* Structured generation
+* Knowledge systems
+
+</td>
+<td width="50%" valign="top">
+
+### Agent Engineering
+
+* Agent harnesses
+* Agent execution loops
+* Tool orchestration
+* Context engineering
+* Memory & state
+* Long-running agents
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### Reliability
+
+* Evaluation systems
+* Observability
+* Tracing
+* Guardrails
+* Testing
+* Feedback loops
+
+</td>
+<td width="50%" valign="top">
+
+### AI Systems
+
+* Model serving
+* LLM inference
+* vLLM / SGLang
+* Distributed systems
+* GPU computing
+* CUDA
+
+</td>
+</tr>
+</table>
+
+---
+
+## `02 / SELECTED WORK`
 
 <table>
 <tr>
@@ -58,55 +124,55 @@ AI Systems
 
 ### ⚡ Infercap
 
-**LLM inference toolkit**
+**LLM inference engineering toolkit**
 
-A CLI toolkit for inference preflight, serving configuration, benchmarking, telemetry, and capacity analysis.
+Operational tooling for understanding an LLM workload before and after deployment.
 
 ```text
-Model
-  ↓
-Check
-  ↓
-Serve
-  ↓
-Verify
-  ↓
-Benchmark
-  ↓
-Analyze
+MODEL
+  │
+  ▼
+CHECK ──► SERVE ──► VERIFY
+                   │
+                   ▼
+              BENCHMARK
+                   │
+                   ▼
+                ANALYZE
 ```
 
-**Stack**
+`Inference` `vLLM` `Benchmarking` `Telemetry`
 
-`Python` `vLLM` `LLM Serving` `Telemetry`
-
-[GitHub](https://github.com/nguyenvmthien/infercap) · [Website](https://infercap.vercel.app/)
+**[Repository →](https://github.com/nguyenvmthien/infercap)**
+**[Website →](https://infercap.vercel.app)**
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🧠 Healthcare GraphRAG
+### ◈ Healthcare GraphRAG
 
-**Knowledge-grounded AI**
+**Knowledge-grounded AI system**
 
-Exploring GraphRAG architectures for healthcare-oriented retrieval and reasoning systems.
+Exploring retrieval and reasoning over heterogeneous healthcare knowledge.
 
 ```text
-Documents
-   ↓
-Knowledge Graph
-   ↓
-Retrieval
-   ↓
-Context Assembly
-   ↓
-LLM Reasoning
+DATA
+ │
+ ├──► INDEX
+ │
+ ├──► GRAPH
+ │
+ └──► RETRIEVAL
+          │
+          ▼
+       CONTEXT
+          │
+          ▼
+       REASONING
 ```
 
-**Stack**
-
-`GraphRAG` `RAG` `LLM` `Vector Search`
+`GraphRAG` `Retrieval` `Knowledge Graphs` `LLMs`
 
 </td>
 </tr>
@@ -114,113 +180,197 @@ LLM Reasoning
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ CUDA Systems
+### ◌ Agent Systems
 
-**GPU programming experiments**
+**Harnesses & execution loops**
 
-Hands-on work covering CUDA execution, memory optimization, tiled GEMM, coalesced access, and kernel performance.
+Experiments around reliable agents that interact with tools and environments.
 
-**Topics**
+```text
+GOAL
+ │
+ ▼
+CONTEXT ──► MODEL
+             │
+             ▼
+            ACT
+             │
+             ▼
+          OBSERVE
+             │
+             └──────► LOOP
+```
 
-`CUDA` `C++` `GPU Memory` `GEMM`
+`Agents` `Tools` `Harness` `Context` `Evals`
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🏗️ AI Infrastructure
+### ⌁ AI Systems
 
-**Production AI systems**
+**Serving & performance**
 
-Studying and building infrastructure around inference engines, distributed serving, observability, and model deployment.
+Studying the infrastructure beneath production AI applications.
 
-**Topics**
+```text
+REQUEST
+   │
+   ▼
+SCHEDULER
+   │
+   ▼
+MODEL EXECUTOR
+   │
+   ▼
+GPU / KV CACHE
+```
 
-`vLLM` `SGLang` `Docker` `AWS`
+`vLLM` `SGLang` `CUDA` `Distributed Systems`
 
 </td>
 </tr>
 </table>
 
-## `> stack`
+---
+
+## `03 / ENGINEERING STACK`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,cpp,pytorch,docker,linux,aws,postgres,git,github,vscode&perline=10" />
+<img src="https://skillicons.dev/icons?i=python,cpp,pytorch,fastapi,postgres,redis,docker,linux,aws,git&theme=dark" />
 
 </div>
 
 <br/>
 
-<div align="center">
+<table>
+<tr>
+<td><b>AI</b></td>
+<td>PyTorch · Transformers · RAG · Agents · LLM APIs</td>
+</tr>
 
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square\&logo=nvidia\&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-LLM_Inference-58A6FF?style=flat-square)
-![SGLang](https://img.shields.io/badge/SGLang-Serving-58A6FF?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-Production_AI-8957E5?style=flat-square)
-![Distributed Systems](https://img.shields.io/badge/Distributed_Systems-0D1117?style=flat-square)
+<tr>
+<td><b>Backend</b></td>
+<td>Python · FastAPI · SQL · REST · Async Systems</td>
+</tr>
 
-</div>
+<tr>
+<td><b>Data</b></td>
+<td>PostgreSQL · Vector Search · Redis · Data Pipelines</td>
+</tr>
 
-## `> currently_exploring`
+<tr>
+<td><b>Serving</b></td>
+<td>vLLM · SGLang · Model APIs · Batching · KV Cache</td>
+</tr>
 
-```text
-LLM Inference         █████████████████░░░
-CUDA / GPU Systems    ███████████████░░░░░
-Production RAG        ███████████████░░░░░
-Agentic Systems       █████████████░░░░░░░
-ML Compilers          █████████░░░░░░░░░░░
-```
+<tr>
+<td><b>Systems</b></td>
+<td>C++ · CUDA · Linux · Docker · Distributed Systems</td>
+</tr>
 
-Current areas of study:
+<tr>
+<td><b>Infrastructure</b></td>
+<td>AWS · Observability · Benchmarking · CI/CD</td>
+</tr>
+</table>
 
-* inference engine architecture
-* KV cache management
-* continuous batching
-* speculative decoding
-* CUDA kernel optimization
-* ML compilers
-* production RAG
-* agentic AI infrastructure
+---
 
-## `> activity`
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nguyenvmthien&theme=github-dark&hide_border=true&area=true" width="100%"/>
-
-</div>
-
-## `> engineering_principle`
-
-<div align="center">
+## `04 / HOW I THINK ABOUT AI SYSTEMS`
 
 ```text
-MODEL
-  │
-  ▼
-SERVING
-  │
-  ▼
-SYSTEMS
-  │
-  ▼
-INFRASTRUCTURE
-  │
-  ▼
-PRODUCTION
+                         USER
+                           │
+                           ▼
+                    ┌─────────────┐
+                    │ APPLICATION │
+                    └──────┬──────┘
+                           │
+           ┌───────────────┼───────────────┐
+           ▼               ▼               ▼
+          RAG            AGENT          MODEL API
+           │               │
+           │        ┌──────┴──────┐
+           │        │   HARNESS   │
+           │        └──────┬──────┘
+           │               │
+           │       context / tools
+           │       memory / state
+           │       loop / control
+           │               │
+           └──────────┬────┘
+                      ▼
+                ┌───────────┐
+                │ LLM LAYER │
+                └─────┬─────┘
+                      │
+                routing / evals
+                safety / tracing
+                      │
+                      ▼
+               ┌─────────────┐
+               │   SERVING   │
+               └──────┬──────┘
+                      │
+              vLLM / SGLang
+                      │
+                      ▼
+               ┌─────────────┐
+               │ GPU / CLOUD │
+               └─────────────┘
 ```
 
-**AI is useful when it can actually run — fast, reliably, and at scale.**
+<div align="center">
+
+### Build the application.
+
+### Engineer the loop.
+
+### Measure the behavior.
+
+### Operate the system.
 
 </div>
 
 ---
 
+## `05 / CURRENTLY EXPLORING`
+
+**Agent Engineering**
+
+`Harness Design` · `Agent Loops` · `Context Engineering` · `Tool Use` · `Long-running Agents`
+
+**RAG & Knowledge Systems**
+
+`GraphRAG` · `Hybrid Retrieval` · `Reranking` · `Retrieval Evaluation`
+
+**AI Reliability**
+
+`Evals` · `Tracing` · `Observability` · `Guardrails` · `Feedback Loops`
+
+**AI Systems**
+
+`Continuous Batching` · `KV Cache` · `Speculative Decoding` · `CUDA`
+
+---
+
+## `06 / ACTIVITY`
+
 <div align="center">
 
-<sub>
-AI Systems · LLM Inference · GPU Computing · Production AI
-</sub>
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=nguyenvmthien&bg_color=0d1117&color=8b949e&line=58a6ff&point=f0f6fc&area=true&hide_border=true"
+width="96%"
+/>
+
+<br/><br/>
+
+<code>APPLICATION → AGENT → MODEL → SERVING → INFRASTRUCTURE</code>
+
+<br/><br/>
+
+<sub>Building reliable AI systems across the stack.</sub>
 
 </div>
